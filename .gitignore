@@ -1,0 +1,10 @@
+# Editor
+.idea/
+
+# Package Files
+*.jar
+node_modules/
+pnpm-lock.yaml
+
+# Dist Files
+dist/

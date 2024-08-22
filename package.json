@@ -1,0 +1,64 @@
+{
+  "name": "nakobase-template-sync",
+  "version": "1.0.0",
+  "description": "A CLI tool to download specific dir and files from a GitHub repository",
+  "type": "module",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "bin": {
+    "nakobase-template-sync": "./dist/esm/index.js"
+  },
+  "files": [
+    "dist/esm",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "start": "pnpm run build:esm && node dist/esm/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NakoBase/nakobase-template-sync.git"
+  },
+  "homepage": "https://github.com/NakoBase/nakobase-template-sync#readme",
+  "bugs": {
+    "url": "https://github.com/NakoBase/nakobase-template-sync/issues"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "nakobase",
+    "file",
+    "api",
+    "repository",
+    "nodejs",
+    "sync"
+  ],
+  "author": "NakoBase",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^10.1.7",
+    "@types/node": "^22.4.2",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.5",
+    "prettier": "^3.3.3",
+    "semantic-release": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.3.8",
+    "@octokit/rest": "^21.0.2"
+  }
+}
