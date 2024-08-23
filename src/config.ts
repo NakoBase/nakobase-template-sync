@@ -22,5 +22,5 @@ export const loadTokenFromConfig = (): string => {
     }
   }
 
-  throw new Error('GH_TOKEN is missing or empty in the config file');
+  throw new Error(`${GH_TOKEN_ENV_KEY} is missing or empty in the config file`);
 };
