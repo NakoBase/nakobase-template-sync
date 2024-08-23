@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/NakoBase/nakobase-template-sync/compare/v1.0.4...v1.0.5) (2024-08-23)
+
+
+### Bug Fixes
+
+* command name ([93f65e1](https://github.com/NakoBase/nakobase-template-sync/commit/93f65e16b282a721602288f6a84d4059d478a93b))
+
 ## [1.0.4](https://github.com/NakoBase/nakobase-template-sync/compare/v1.0.3...v1.0.4) (2024-08-23)
 
 
