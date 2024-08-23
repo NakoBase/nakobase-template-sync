@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/NakoBase/nakobase-template-sync/compare/v1.0.2...v1.0.3) (2024-08-23)
+
+
+### Bug Fixes
+
+* build in GHA ([53c2619](https://github.com/NakoBase/nakobase-template-sync/commit/53c2619cb5269a05fea3300eef0041abba83ba5e))
+
 ## [1.0.2](https://github.com/NakoBase/nakobase-template-sync/compare/v1.0.1...v1.0.2) (2024-08-23)
 
 
