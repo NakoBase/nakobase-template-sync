@@ -1,9 +1,9 @@
 # NakoBase template sync
 
-This is a simple CLI tool to sync the [nakobase-project-template](https://github.com/NakoBase/nakobase-project-template) to the NakoBase projects.
+This is a simple CLI tool to sync the [nakobase-project-template](https://github.com/nakobase/nakobase-project-template) to the NakoBase projects.
 
 ## Usage
 
 ```bash
-$ npx nakobase-template-sync
+$ npx @nakobase/nakobase-template-sync
 ```
