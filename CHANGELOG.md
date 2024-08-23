@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/NakoBase/nakobase-template-sync/compare/v1.0.0...v1.0.1) (2024-08-23)
+
+
+### Bug Fixes
+
+* add publish_config ([48ff72c](https://github.com/NakoBase/nakobase-template-sync/commit/48ff72cf15b13c6463d5820ece7f20e7a69e3449))
+
 # 1.0.0 (2024-08-23)
 
 
