@@ -5,4 +5,5 @@
 
 module.exports = {
   extends: ['@commitlint/config-conventional'],
+  ignores: [(commit) => commit.match(/semantic-release-bot/)],
 };
