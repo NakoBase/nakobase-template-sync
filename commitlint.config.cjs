@@ -5,5 +5,7 @@
 
 module.exports = {
   extends: ['@commitlint/config-conventional'],
-  ignores: [(commit) => commit.match(/semantic-release-bot/)],
+  rules: {
+    'body-max-line-length': [0, 'always'],
+  },
 };
