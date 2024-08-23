@@ -5,9 +5,7 @@
   "type": "module",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
-  "bin": {
-    "nakobase-template-sync": "./dist/esm/index.js"
-  },
+  "bin": "./dist/esm/index.js",
   "files": [
     "dist/esm",
     "README.md",

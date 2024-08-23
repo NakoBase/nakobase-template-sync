@@ -1,4 +1,4 @@
-export const GH_OWNER = 'NakoBase';
+export const GH_OWNER = 'nakobase';
 export const GH_REPO = 'nakobase-project-template';
 export const GH_BRANCH = 'develop';
 export const GH_BASE_PATH = 'templates';
