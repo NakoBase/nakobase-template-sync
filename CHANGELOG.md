@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/NakoBase/nakobase-template-sync/compare/v1.0.3...v1.0.4) (2024-08-23)
+
+
+### Bug Fixes
+
+* add Shebang ([3da3b32](https://github.com/NakoBase/nakobase-template-sync/commit/3da3b3289bbe4c1305d3fdf4c3f6d09604b689bb))
+
 ## [1.0.3](https://github.com/NakoBase/nakobase-template-sync/compare/v1.0.2...v1.0.3) (2024-08-23)
 
 
