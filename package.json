@@ -1,5 +1,5 @@
 {
-  "name": "@NakoBase/nakobase-template-sync",
+  "name": "@nakobase/nakobase-template-sync",
   "version": "1.0.0",
   "description": "A CLI tool to download specific dir and files from a GitHub repository",
   "type": "module",
